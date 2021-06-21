@@ -1,1 +1,46 @@
-// TODO
+.posts {
+  margin: 0 auto;
+
+  a {
+    display: block;
+    margin-bottom: 2rem;
+
+    & + a {
+      margin-top: 1rem;
+      padding-top: 1rem;
+    }
+
+    strong {
+      font-size: 1.75rem;
+      display: block;
+      margin-bottom: 0.5rem;
+      transition: color 0.2s;
+    }
+
+    &:hover strong {
+      color: var(--pink-300);
+    }
+
+    p {
+      font-size: 1.125rem;
+      display: block;
+      margin: 1rem 0;
+    }
+
+    span {
+      svg {
+        margin-right: 0.5rem;
+      }
+
+      & + span {
+        margin-left: 1.5rem;
+      }
+    }
+  }
+}
+
+.pagination {
+  color: var(--pink-300);
+  background-color: inherit;
+  border: 0;
+}

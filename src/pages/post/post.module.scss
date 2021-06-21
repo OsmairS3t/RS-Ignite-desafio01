@@ -1,1 +1,46 @@
-// TODO
+.titlePost {
+  max-width: 700px;
+  margin: 2rem auto;
+
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  span {
+    & + span {
+      margin-left: 1.8rem;
+    }
+    svg {
+      margin-right: 0.5rem;;
+    }
+  }
+}
+.imgPost {
+  display: flex;
+  justify-content: center;
+
+  img {
+    width: 700px;
+    height: 16rem;;
+  }
+}
+.post {
+  max-width: 700px;
+  margin: 2rem auto;
+
+  h2 {
+    display: block;
+    font-size: 2rem;
+    margin: 2rem 0;
+  }
+  p, a {
+    font-size: 1.25rem;
+    margin: 1.8rem 0;
+    line-height: 1.8rem;
+    text-align: justify;
+  }
+  a {
+    color: var(--pink-300);
+  }
+}
